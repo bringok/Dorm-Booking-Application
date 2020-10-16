@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="#fafafa"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Roomss2.Main3Activity">
+    <TextView
+        android:id="@+id/room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/brandon_bld"
+        android:text="Choose your room"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/Black"
+        android:textSize="30sp"
+        android:background="@color/colorPrimary"
+        android:gravity="center_horizontal" />
+
+    <ListView
+
+      android:layout_below="@+id/room"
+        android:id="@+id/list_view2"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</RelativeLayout>

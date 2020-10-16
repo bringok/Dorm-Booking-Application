@@ -1,0 +1,42 @@
+<resources>
+
+
+    <string name="app_name">Dorm Guide</string>
+    <string name="logo_name">Get A Room</string>
+    <string name="slogan_name">We will help you to find your way!</string>
+    <string name="powerdby">Powered by Mohannad</string>
+
+    <string name="first_slide_title">Search for a place to stay</string>
+    <string name="second_slide_title">You can contact us anytime</string>
+    <string name="third_slide_title">We are always here for students</string>
+    <string name="fourth_slide_title">Sit back and enjoy</string>
+
+    <string name="first_slide_desc">You can search any place nearby or within the specified city</string>
+    <string name="second_slide_desc">We provide 24/7 service</string>
+    <string name="third_slide_desc">If you are struggling to find a hostel,we are there  </string>
+    <string name="fourth_slide_desc">we will handle everything for you </string>
+
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets get started</string>
+
+
+    <string name="hotels">Hotels</string>
+    <string name="smallrooms">Small Room</string>
+    <string name="mediumroom">Medium Room</string>
+    <string name="largeroom">Large Room</string>
+    <string name="doubleroom">Double Room</string>
+
+
+    <string name="featured_locations">All Featured Locations</string>
+    <string name="featured_locations_describtion">All Featured Locations</string>
+    <string name="most_viewes_locations">Most Viewed</string>
+    <string name="categories">Categories</string>
+    <string name="view_all">View all</string>
+    <string name="search_text">Search</string>
+
+
+
+
+
+</resources>

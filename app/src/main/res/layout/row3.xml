@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:orientation="vertical"
+        android:paddingTop="5dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/card_4"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="500dp"
+            android:paddingLeft="5dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/room1"
+            android:id="@+id/image"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Main Title"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:paddingTop="10dp"
+            android:layout_toRightOf="@id/image"
+            android:fontFamily="@font/brandon_bld"
+            android:layout_margin="4dp"
+            android:textSize="25sp"
+            android:id="@+id/textView1"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sub Title"
+            android:textColor="#a9a9a9"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView1"
+            android:layout_toRightOf="@id/image"
+            android:id="@+id/textView2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="135 RM"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/Black"
+            android:layout_margin="2dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/brandon_bld"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:id="@+id/textView3"
+            android:background="@drawable/card_3"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "846830353193",
+    "firebase_url": "https://dorm-guide.firebaseio.com",
+    "project_id": "dorm-guide",
+    "storage_bucket": "dorm-guide.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846830353193:android:c47e138dfe6cf2a411d538",
+        "android_client_info": {
+          "package_name": "com.example.dormguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846830353193-l9m1ght6sn444rmq95u72anv4v7vt42t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr0tFslb1bY2N7QW3CH-COAGOvUSGlrjU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846830353193-l9m1ght6sn444rmq95u72anv4v7vt42t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

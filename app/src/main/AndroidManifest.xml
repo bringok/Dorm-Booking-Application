@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dormguide">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".common.LoginSignup.ForgetPasswordActivity"></activity>
+        <activity android:name=".common.FeedBack" />
+        <activity android:name=".Roomss2.Main4Activity" />
+        <activity android:name=".Roomss2.Main3Activity" />
+        <activity android:name=".Roomss2.Main2Activity" />
+        <activity android:name=".Roomss1.Last2Activity" />
+        <activity android:name=".Roomss1.Payment2" />
+        <activity android:name=".Roomss1.Another2Activity" />
+        <activity android:name=".Roomss1.Main2Activity" />
+        <activity android:name=".Roomss.Payment" />
+        <activity android:name=".Roomss.LastActivity" />
+        <activity
+            android:name=".Roomss.AnotherActivity"
+            android:parentActivityName=".Roomss.MainActivity" />
+        <activity android:name=".Roomss.MainActivity" />
+        <activity android:name=".Rooms.DoubleRoom.Room7D" />
+        <activity android:name=".Rooms.DoubleRoom.Room6D" />
+        <activity android:name=".Rooms.DoubleRoom.Room5D" />
+        <activity android:name=".Rooms.DoubleRoom.Room4D" />
+        <activity android:name=".Rooms.DoubleRoom.Room3D" />
+        <activity android:name=".Rooms.DoubleRoom.Room2D" />
+        <activity android:name=".Rooms.DoubleRoom.Room1D" />
+        <activity android:name=".Rooms.LargeRoom.Room7L" />
+        <activity android:name=".Rooms.LargeRoom.Room6L" />
+        <activity android:name=".Rooms.LargeRoom.Room5L" />
+        <activity android:name=".Rooms.LargeRoom.Room4L" />
+        <activity android:name=".Rooms.LargeRoom.Room3L" />
+        <activity android:name=".Rooms.LargeRoom.Room2L" />
+        <activity android:name=".Rooms.LargeRoom.Room1L" />
+        <activity android:name=".Rooms.MediumRoom.Room7m" />
+        <activity android:name=".Rooms.MediumRoom.Room6m" />
+        <activity android:name=".Rooms.MediumRoom.Room5m" />
+        <activity android:name=".Rooms.MediumRoom.Room4m" />
+        <activity android:name=".Rooms.MediumRoom.Room3m" />
+        <activity android:name=".Rooms.MediumRoom.Room2m" />
+        <activity android:name=".Rooms.MediumRoom.Room1m" />
+        <activity android:name=".Rooms.SmallRoom.Room7" />
+        <activity android:name=".Rooms.SmallRoom.Room6" />
+        <activity android:name=".Rooms.SmallRoom.Room5" />
+        <activity android:name=".Rooms.SmallRoom.Room4" />
+        <activity android:name=".Rooms.SmallRoom.Room3" />
+        <activity android:name=".Rooms.SmallRoom.Room2" />
+        <activity android:name=".Rooms.SmallRoom.Room1" />
+        <activity android:name=".common.LoginSignup.Verify" />
+        <activity android:name=".common.LoginSignup.SignUp" />
+        <activity android:name=".common.LoginSignup.Login" />
+        <activity android:name=".common.LoginSignup.RetailerStartupScreen" />
+        <activity android:name=".common.OnBoarding" />
+        <activity android:name=".User.UserDashboard" />
+        <activity android:name=".common.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

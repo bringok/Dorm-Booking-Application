@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".Roomss.AnotherActivity">
+
+    <ImageView
+        android:id="@+id/another_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/room1" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleText"
+        android:text="Room 1"
+        android:textSize="35sp"
+        android:textColor="@color/Black"
+        android:fontFamily="@font/brandon_blk"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:paddingTop="5dp"
+        android:layout_below="@id/another_imageView"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@+id/titleText"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descriptionText"
+        android:text="Description Text"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:background="@drawable/card_1"
+        android:layout_below="@id/titleText"
+        />
+    </ScrollView>
+    <Button
+        android:id="@+id/book_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="proceed to payment"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
